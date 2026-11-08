@@ -5,7 +5,7 @@ local Players = game:GetService("Players")
 
 local LocalPlayer = Players.LocalPlayer
 
-local library = loadstring(readfile("Source.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ali-lov3/SfixUiLib/refs/heads/main/Source.lua"))()
 
 local window = library:window({
 	name = "sfix",
